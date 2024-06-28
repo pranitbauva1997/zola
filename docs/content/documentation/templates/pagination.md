@@ -52,6 +52,10 @@ A paginated taxonomy gets two variables aside from the `paginator` variable:
 
 See the [taxonomies page](@/documentation/templates/taxonomies.md) for a detailed version of the types.
 
+## SEO
+
+By setting `exclude_paginated_pages_in_sitemap` as `true` in `config.toml` one can avoid the paginated pages showing up in `sitemap.xml`.
+
 ## Example
 
 Here is an example from a theme on how to use pagination on a page (`index.html` in this case):
